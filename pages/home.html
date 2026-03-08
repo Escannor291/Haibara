@@ -1,100 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="../css/style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body class="home-page">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="home-page">
     <!-- Navigation bar -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <h2>Haibara</h2>
-            </div>
+      <nav class="navbar">
+        <div class="logo">
+          <h2>Haibara</h2>
+        </div>
 
-            <form class="search-form" role="search" onsubmit="return false;">
-                <div class="search-field">
-                    <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
-                    <input type="search" id="searchInput" placeholder="Cari produk kamu" aria-label="Cari produk">
-                </div>
-                <button type="button" id="searchBtn">Cari</button>
-            </form>
+        <form class="search-form" role="search" onsubmit="return false;">
+          <div class="search-field">
+            <i
+              class="fa-solid fa-magnifying-glass search-icon"
+              aria-hidden="true"
+            ></i>
+            <input
+              type="search"
+              id="searchInput"
+              placeholder="Cari produk kamu"
+              aria-label="Cari produk"
+            />
+          </div>
+          <button type="button" id="searchBtn">Cari</button>
+        </form>
 
-
-            <ul>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-cart-shopping"></i> Keranjang
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-tag"></i>Promo    
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa solid fa-profile"></i>Profil
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping"></i> Keranjang
+            </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fa-solid fa-tag"></i>Promo </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fa solid fa-profile"></i>Profil </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Jumbotron start -->
 
     <section class="jumbotron">
-        <img src="../assets/img/Jumbotron.jpg" class="jumbotron-img" alt="" aria-hidden="true">
-         <div class="product-title-desc">
-             <h1>Belanja Kebutuhan mu sekarang!<br>Kami selalu ada untukmu.</h1>
-             <p>Temukan kebutuhan harian mu disini, belanja sekarang dan dapatkan diskon hingga 30%</p>
-         </div>
+      <img
+        src="../assets/img/Jumbotron.jpg"
+        class="jumbotron-img"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="product-title-desc">
+        <h1>Belanja Kebutuhan mu sekarang!<br />Kami selalu ada untukmu.</h1>
+        <p>
+          Temukan kebutuhan harian mu disini, belanja sekarang dan dapatkan
+          diskon hingga 30%
+        </p>
+      </div>
 
-         <div class="btn-suggest">
-            <button class="btn-suggest1">Cari kebutuhanmu</button>
-         </div>  
+      <div class="btn-suggest">
+        <button class="btn-suggest1">Cari kebutuhanmu</button>
+      </div>
     </section>
 
     <!-- Jumbotron end-->
 
+    <!-- Product card start -->
     <section class="featured-demo-section">
-        <article class="featured-card">
-            <div class="featured-media">
-                <span class="featured-badge">Best Seller</span>
-                <img src="../assets/img/Jumbotron.jpg" alt="Haibara Entryway Rack">
-            </div>
+      <article class="featured-card">
+        <div class="featured-media">
+          <span class="featured-badge">Best Seller</span>
+          <img src="../assets/img/Jumbotron.jpg" alt="Haibara Entryway Rack" />
+        </div>
 
-            <div class="featured-body">
-                <h3 class="featured-title">Haibara Entryway Rack</h3>
+        <div class="featured-body">
+          <h3 class="featured-title">Haibara Entryway Rack</h3>
 
-                <div class="featured-meta">
-                    <p class="featured-rating">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>573 Reviews</span>
-                    </p>
-                    <p class="featured-price">Rp 184.000</p>
-                </div>
+          <div class="featured-meta">
+            <p class="featured-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>573 Reviews </span>
+            </p>
+            <p class="featured-price">Rp 184.000</p>
+          </div>
 
-                <div class="featured-colors" aria-label="Pilihan warna">
-                    <span class="dot c1"></span>
-                    <span class="dot c2"></span>
-                    <span class="dot c3"></span>
-                    <span class="dot c4"></span>
-                    <span class="dot c5"></span>
-                </div>
+          <div class="featured-colors" aria-label="Pilihan warna">
+            <span class="dot c1"></span>
+            <span class="dot c2"></span>
+            <span class="dot c3"></span>
+            <span class="dot c4"></span>
+            <span class="dot c5"></span>
+          </div>
 
-                <button class="featured-btn" type="button">Shop Now</button>
+          <button class="featured-btn" type="button">Shop Now</button>
+        </div>
+      </article>
+
+      <article class="featured-card2">
+        <div class="featured-media2">
+          <img src="../assets/img/Jumbotron.jpg" alt="Haibara Entryway Rack" />
+        </div>
+
+        <div class="featured-body2">
+          <h3 class="featured-title2">Haibara starter pack</h3>
+
+          <div class="featured-meta2">
+            <p class="featured-rating2">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>573 Reviews</span>
+            </p>
+            <p class="featured-price2">Rp 200.000</p>
+          </div>
+
+          <div class="product-dot2" aria-label="Pilihan warna">
+            <span class="pdot1"></span>
+            <span class="pdot2"></span>
+            <span class="pdot3"></span>
+          </div>
+
+          <button class="product-btn2" type="button">Shop Now</button>
+
+        <article class="product-card3">
+            <div class="product-image3">
+                <img src="" alt=""/>
             </div>
         </article>
+
+          <!-- Product card end -->
+        </div>
+      </article>
     </section>
-
-
-</body>
+  </body>
 </html>
