@@ -395,19 +395,33 @@ body {
 }
 
 /* Featured single card sample */
+
 .cards-bg-wrapper {
-  background-color: var(--input-border);
+  background-color: #faf6f0;
+  padding-bottom: 200px;
 }
+
+.promote {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-top: 0;
+  font-family: var(--font-logo);
+  font-size: 1000;
+  font-style: italic;
+}
+
 
 .featured-demo-section {
   width: min(1080px, calc(100% - 40px));
   margin: 0 auto;
   padding-top: 40px;
   display: flex;
-  align-items: stretch;
   gap: 22px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
+
 
 .section-divider {
   border: none;
